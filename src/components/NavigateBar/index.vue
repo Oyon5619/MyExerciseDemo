@@ -71,7 +71,7 @@ export default {
   },
   created() {
     bus.$on('shareTheme', val => {
-      // console.log(`Brother[NavigateBar] recived value of theme from Brother[TopComp]: ${val}`)
+      // console.log(`Brother[NavigateBar] received value of theme from Brother[TopComp]: ${val}`)
       this.curTheme = val
     })
   },
